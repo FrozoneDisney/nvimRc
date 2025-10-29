@@ -9,7 +9,8 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = {"lua_ls", "vimls", "ts_ls"}
+        ensure_installed = {"lua_ls", "vimls", "ts_ls"},
+        auto_install = true,
       })
     end
   },
