@@ -8,6 +8,7 @@ return {
 				load_on_startup = true,
 				theme_conf = { border = true },
 				previewer = false,
+        auto_clean_after_session_restore = false,
 			},
 			vim.keymap.set("n", "<leader>ls", "<cmd>AutoSession search<CR>", { noremap = true }),
 		})
